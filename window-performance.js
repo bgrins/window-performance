@@ -27,8 +27,9 @@ if (window.performance && window.performance.timing && window.performanceTrack !
 	var waitForLoadInterval = 100;
 	
 	if ( document.readyState === "complete" ) { onDOMContentLoaded(); }
-	else { document.addEventListener("DOMContentLoaded", onDOMContentLoaded, false); }
+	else { document.addEventListener("DOMContentLoaded", onDOMContentLoadedDefer, false); }
 
+	function onDOMContentLoadedDefer() { setTimeout(onDOMContentLoaded, 1); }
 	function onDOMContentLoaded() {
 		printContainer();
 		printStyleSheet();

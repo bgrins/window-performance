@@ -1,0 +1,6 @@
+.DS_Store
+npm-debug.log
+.idea
+*.zip
+node_modules
+bower_components

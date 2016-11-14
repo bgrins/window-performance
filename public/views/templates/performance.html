@@ -1,0 +1,22 @@
+<style>{{ $ctrl.PERFORMANCE_STYLES }}</style>
+
+<details id="pm-component">
+    <summary>Performance <span onclick='javascript:(function(e) {e&&e.parentElement.removeChild(e);})(document.getElementById("pm-component")); return false'>x</span>
+    </summary>
+    <details>
+        <summary>Timing</summary>
+        <div id='pm-timing'></div>
+        <details>
+            <summary>Raw</summary>
+            <div id='pm-timing-raw'></div>
+        </details>
+    </details>
+    <details>
+        <summary>Memory</summary>
+        <div id='pm-memory'>--enable-memory-info</div>
+    </details>
+    <details>
+        <summary>Navigation</summary>
+        <div id='pm-navigation'></div>
+    </details>
+</details>

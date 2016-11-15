@@ -48,7 +48,7 @@ function bundle() {
 var devServer = {
     host: '0.0.0.0',
     port: 4444,
-    file: 'test.html',
+    file: 'index.html',
     livereloadPort: 35729
 
 };

@@ -2,7 +2,7 @@
   "name": "window-performance",
   "version": "1.0.0",
   "description": "window.performance A small plugin to automatically display performance data in JavaScript Currently is only known to work in Chrome",
-  "main": "test.html",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

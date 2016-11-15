@@ -76,13 +76,18 @@ angular
     .component('performanceComp', {
         controller: function() {
             var vm = this;
-            vm.state = document.readyState;
             vm.PERFORMANCE_STYLES = [
-                '#pm-component { z-index: 2147483647; position: absolute; top: 0; left: 0; border:rgba(0,0,0,.4) solid 2px; padding:2px; width:110px; background-color: rgba(220, 220, 220, .3); border-top:none; border-right:none; font-size:12px; font-family: Courier;}',
+                '#pm-component {',
+                'z-index: 2147483647;',
+                'position: absolute; top: 0; left: 0; right: 0;',
+                'border:rgba(0,0,0,.4) solid 2px;',
+                'padding:2px; width:110px; background-color: rgba(220, 220, 220, .3);',
+                'border-top:none; border-right:none;',
+                'font-size:12px; font-family: Courier;}',
                 '#pm-component[open] { background-color:rgb(220, 220, 220); width: 600px;  }',
                 '#pm-component > summary  span { color:blue; text-decoration: underline; cursor: pointer; position:absolute; top:0; right:2px; }',
                 '#pm-component details, #pm-component details > div { margin-left: 15px; }'
-            ].join(' ');
+            ].join(' \n');
 
         },
         templateUrl: 'public/views/templates/performance.html'

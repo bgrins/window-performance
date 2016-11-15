@@ -1,0 +1,36 @@
+{
+  "name": "window-performance",
+  "version": "1.0.0",
+  "description": "window.performance A small plugin to automatically display performance data in JavaScript Currently is only known to work in Chrome",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankinedinburgh/window-performance.git"
+  },
+  "keywords": [
+    "performance",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankinedinburgh/window-performance/issues"
+  },
+  "homepage": "https://github.com/frankinedinburgh/window-performance#readme",
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "lodash.assign": "^4.2.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
